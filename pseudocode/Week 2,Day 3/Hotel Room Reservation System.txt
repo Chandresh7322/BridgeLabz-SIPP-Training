@@ -8,7 +8,7 @@ CLASS Room
         SET this.customerName = customerName
         SET this.daysStayed = daysStayed
 
-    METHOD calculateBill()   // overridden in subclasses
+    METHOD calculateBill()   
         RETURN 0
 END CLASS
 
